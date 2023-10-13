@@ -2,6 +2,8 @@ package com.yumtaufikhidayat.rickandmortys.ui.home
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Filter
+import android.widget.Filterable
 import androidx.recyclerview.widget.DiffUtil.ItemCallback
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -12,7 +14,39 @@ import com.yumtaufikhidayat.rickandmortys.ui.utils.Common.textStatusColor
 
 class HomeAdapter(
     private val onItemClickListener: (Character) -> Unit
-) : ListAdapter<Character, HomeAdapter.ViewHolder>(homeDiffCallback) {
+) : ListAdapter<Character, HomeAdapter.ViewHolder>(
+    homeDiffCallback
+), Filterable {
+
+    private var listCharacters = listOf<Character>()
+    private val searchFilter = object : Filter() {
+        override fun performFiltering(p0: CharSequence): FilterResults {
+            val filteredList = mutableListOf<Character>()
+            if (p0.isEmpty()) {
+                filteredList.addAll(listCharacters)
+            } else {
+                val filterPattern = p0.toString().lowercase()
+                listCharacters.forEach {
+                    if(it.name.lowercase().contains(filterPattern)) filteredList.add(it)
+                }
+            }
+
+            val result = FilterResults()
+            result.values = filteredList
+            return result
+        }
+
+        override fun publishResults(p0: CharSequence?, p1: FilterResults?) {
+            submitList(p1?.values as MutableList<Character>)
+        }
+    }
+
+    fun setData(list: List<Character>) {
+        this.listCharacters = list
+        submitList(list)
+    }
+
+    override fun getFilter(): Filter = searchFilter
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return ViewHolder(

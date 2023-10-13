@@ -11,13 +11,33 @@
         android:id="@+id/toolbarMain"
         layout="@layout/toolbar_home"/>
 
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etSearch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit_text"
+        android:padding="8dp"
+        android:drawableStart="@drawable/outline_search"
+        android:drawablePadding="8dp"
+        android:textColorHint="@color/white_200"
+        android:layout_margin="16dp"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:hint="@string/tvSearch"
+        app:layout_constraintTop_toBottomOf="@id/toolbarMain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvCharacters"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="8dp"
         tools:listitem="@layout/item_characters"
-        app:layout_constraintTop_toBottomOf="@id/toolbarMain"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/etSearch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/etSearch"
+        app:layout_constraintEnd_toEndOf="@id/etSearch"/>
 
     <ProgressBar
         android:id="@+id/pbLoading"

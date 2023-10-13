@@ -17,4 +17,7 @@
     <string name="tvDeveloperName">Taufik Hidayat</string>
     <string name="tvSavedToFavorite">Saved to favorite</string>
     <string name="tvRemovedToFavorite">Removed to favorite</string>
+    <string name="tvSearch">Search character…</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -61,6 +61,7 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
 
                 var statusFavorite = data.isFavorite
                 setFavoriteCharacter(statusFavorite)
+                toolbarDetail.imgFavorite.visibility = View.VISIBLE
                 toolbarDetail.imgFavorite.setOnClickListener {
                     statusFavorite = !statusFavorite
                     if (statusFavorite)

@@ -1,10 +1,15 @@
 package com.yumtaufikhidayat.rickandmortys.ui.home
 
+import android.content.Context
 import android.os.Bundle
 import android.view.View
+import android.view.inputmethod.EditorInfo
+import android.view.inputmethod.InputMethodManager
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.core.view.isVisible
+import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
@@ -36,6 +41,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         )
         setHomeAdapter()
         setData()
+        filterData()
     }
 
     private val backPressedCallback: OnBackPressedCallback = object : OnBackPressedCallback(true) {
@@ -59,12 +65,10 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         homeAdapter = HomeAdapter {
             navigateToDetail(it)
         }
-        binding.apply {
-            with(rvCharacters) {
-                layoutManager = LinearLayoutManager(requireContext())
-                setHasFixedSize(true)
-                adapter = homeAdapter
-            }
+        binding.rvCharacters.apply {
+            layoutManager = LinearLayoutManager(requireContext())
+            setHasFixedSize(true)
+            adapter = homeAdapter
         }
     }
 
@@ -75,7 +79,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                     is Resource.Loading -> showLoading(true)
                     is Resource.Success -> {
                         showLoading(false)
-                        homeAdapter?.submitList(it.data)
+                        it.data?.let { listOfData -> homeAdapter?.setData(listOfData) }
                     }
                     is Resource.Error -> {
                         showLoading(false)
@@ -84,6 +88,39 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                     }
                 }
             }
+        }
+    }
+
+    private fun filterData() {
+        binding.etSearch.apply {
+            showKeyboard()
+            setOnEditorActionListener(TextView.OnEditorActionListener { _, actionId, _ ->
+                if (actionId == EditorInfo.IME_ACTION_SEARCH) {
+                    hideKeyboard()
+                    return@OnEditorActionListener true
+                }
+                false
+            })
+
+            addTextChangedListener(afterTextChanged = { q ->
+                homeAdapter?.filter?.filter(q.toString())
+            })
+        }
+    }
+
+    private fun showKeyboard() {
+        binding.etSearch.apply {
+            requestFocus()
+            val imm = requireActivity().getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.showSoftInput(this, InputMethodManager.SHOW_IMPLICIT)
+        }
+    }
+
+    private fun hideKeyboard() {
+        binding.etSearch.apply {
+            clearFocus()
+            val imm = requireActivity().getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.hideSoftInputFromWindow(this.windowToken, 0)
         }
     }
 
