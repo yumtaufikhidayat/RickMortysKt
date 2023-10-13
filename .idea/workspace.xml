@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove unused/commented code." />
+    <list id="105e9e5e-67a2-406d-a75a-371ab5d52dbb" name="DON'T COMMIT" comment="Add code on build.gradle (app) to run on release variant." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.18.22:5555]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Sealed Class" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="navigationResourceFile" />
+        <option value="resourceFile" />
+        <option value="valueResourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../../Build APK Rick and Morty's App/data_key" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="modularization-dfm-favorite-fragment" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="submission2-capstone-akhir" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1691657754" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2SM9bpF2xzJLoN7FrUve2rhwwG8" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ApkExportedModule": "Rick_and_Morty's.app",
+    "BundleExportedModule": "Rick_and_Morty's.app",
+    "ExportApk.ApkPathForRick_and_Morty's.app": "/Users/rizkahidayat/Documents/VersionControl/Build APK Rick and Morty's App",
+    "PROJECT_TRUSTED_KEY": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cidr.known.project.marker": "true",
+    "com.android.tools.idea.devicemanager.tab": "Physical",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "last_opened_file_path": "/Users/rizkahidayat/Documents/VersionControl/github/RickMortysKt",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "release"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/favorite/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/favorite/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/favorite/src/main/res" />
+      <recent name="$PROJECT_DIR$/favorite/src/main/res/navigation" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.yumtaufikhidayat.rickandmortys.di" />
+      <recent name="com.yumtaufikhidayat.rickandmortys.di.dfm" />
+      <recent name="com.yumtaufikhidayat.rickandmortys.favorite.di" />
+      <recent name="com.yumtaufikhidayat.rickandmortys.favorite.ui" />
+      <recent name="com.yumtaufikhidayat.rickandmortys.ui.utils" />
+    </key>
+    <key name="android.template.-985699150">
+      <recent name="com.yumtaufikhidayat.rickandmortys.ui.splashscreen" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.yumtaufikhidayat.rickandmortys.favorite.ui.factory" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Rick_and_Morty's.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Rick and Morty's" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Rick and Morty's" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="" />
+      <changelist id="105e9e5e-67a2-406d-a75a-371ab5d52dbb" name="DON'T COMMIT" comment="" />
+      <created>1688945656937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688945656937</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Update screenshot file name on README.md file.">
+      <created>1691450928689</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1691450928689</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Upgrade compile sdk and remove tools:context.">
+      <created>1691487038361</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1691487038362</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Remove unused colors and string resources.">
+      <created>1691487115338</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1691487115338</updated>
+    </task>
+    <task id="LOCAL-00153" summary="Change handler using delay and Coroutine.">
+      <created>1691487234113</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1691487234113</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Update project and remove unused imports.">
+      <created>1691487285920</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1691487285920</updated>
+    </task>
+    <task id="LOCAL-00155" summary="Update some dependencies version.">
+      <created>1691488287817</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1691488287817</updated>
+    </task>
+    <task id="LOCAL-00156" summary="Add leak canary dependency and implementation leak canary.">
+      <created>1691488641648</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1691488641648</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Adjust lateinit var using nullable variable.">
+      <created>1691495254483</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1691495254483</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Change onDestroy using onStop to fix memory leak.">
+      <created>1691495275827</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1691495275827</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Change onDestroy using onStop to fix memory leak.">
+      <created>1691495285159</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1691495285159</updated>
+    </task>
+    <task id="LOCAL-00160" summary="Move passphrase to Constants class. Also add fallbackToDestructiveMigration() method.">
+      <created>1691498909753</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1691498909753</updated>
+    </task>
+    <task id="LOCAL-00161" summary="Update project.">
+      <created>1691498919690</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1691498919691</updated>
+    </task>
+    <task id="LOCAL-00162" summary="Add ssl pinning.">
+      <created>1691500155857</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1691500155857</updated>
+    </task>
+    <task id="LOCAL-00163" summary="Update project.">
+      <created>1691500167646</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1691500167646</updated>
+    </task>
+    <task id="LOCAL-00164" summary="Move hardcoded ssl pinning key to Constants class.">
+      <created>1691500287596</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1691500287596</updated>
+    </task>
+    <task id="LOCAL-00165" summary="Add buildTypes debug.">
+      <created>1691585253557</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1691585253557</updated>
+    </task>
+    <task id="LOCAL-00166" summary="Remove buildTypes on dynamic feature module library.">
+      <created>1691585311882</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1691585311882</updated>
+    </task>
+    <task id="LOCAL-00167" summary="Add id to root view.">
+      <created>1691585350009</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1691585350009</updated>
+    </task>
+    <task id="LOCAL-00168" summary="Add obfuscation proguard rule.">
+      <created>1691585477661</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1691585477661</updated>
+    </task>
+    <task id="LOCAL-00169" summary="Update navControllerDestination becomes object variable.">
+      <created>1691587131836</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1691587131836</updated>
+    </task>
+    <task id="LOCAL-00170" summary="Update project.">
+      <created>1691587461852</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1691587461852</updated>
+    </task>
+    <task id="LOCAL-00171" summary="Update gitignore.">
+      <created>1691587476145</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1691587476145</updated>
+    </task>
+    <task id="LOCAL-00172" summary="Update project.">
+      <created>1691642558320</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1691642558321</updated>
+    </task>
+    <task id="LOCAL-00173" summary="Update project.">
+      <created>1691642636873</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1691642636873</updated>
+    </task>
+    <task id="LOCAL-00174" summary="Update content of gitignore file.">
+      <created>1691642669675</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1691642669675</updated>
+    </task>
+    <task id="LOCAL-00175" summary="Update content of gitignore file.">
+      <created>1691642674829</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1691642674829</updated>
+    </task>
+    <task id="LOCAL-00176" summary="Update android.yml file.">
+      <created>1691643266689</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1691643266689</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Update android.yml file.">
+      <created>1691643332359</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1691643332359</updated>
+    </task>
+    <task id="LOCAL-00178" summary="Update android.yml file.">
+      <created>1691643417299</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1691643417299</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Update android.yml file.">
+      <created>1691643964307</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1691643964307</updated>
+    </task>
+    <task id="LOCAL-00180" summary="Update android.yml file.">
+      <created>1691644081665</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1691644081665</updated>
+    </task>
+    <task id="LOCAL-00181" summary="Update android.yml file.">
+      <created>1691644128638</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1691644128638</updated>
+    </task>
+    <task id="LOCAL-00182" summary="Update android.yml file.">
+      <created>1691644338401</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1691644338402</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Change application icon.">
+      <created>1691658468904</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1691658468904</updated>
+    </task>
+    <task id="LOCAL-00184" summary="Add Github Action's badge.">
+      <created>1691658490370</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1691658490370</updated>
+    </task>
+    <task id="LOCAL-00185" summary="Update leak canary version to 2.12.">
+      <created>1691730163813</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1691730163813</updated>
+    </task>
+    <task id="LOCAL-00186" summary="Move hardcoded string to string resource and update DetailFragment's toast.">
+      <created>1691730290403</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1691730290403</updated>
+    </task>
+    <task id="LOCAL-00187" summary="Update project.">
+      <created>1691805266720</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1691805266720</updated>
+    </task>
+    <task id="LOCAL-00188" summary="Update project.">
+      <created>1691805276415</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1691805276415</updated>
+    </task>
+    <task id="LOCAL-00189" summary="Update project.">
+      <created>1692314294674</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1692314294674</updated>
+    </task>
+    <task id="LOCAL-00190" summary="Add Github Actions to tech stacks and update README.md file.">
+      <created>1692314387550</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1692314387551</updated>
+    </task>
+    <task id="LOCAL-00191" summary="Update project.">
+      <created>1692657923571</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1692657923572</updated>
+    </task>
+    <task id="LOCAL-00192" summary="Remove unused codes.">
+      <created>1692657934612</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1692657934612</updated>
+    </task>
+    <task id="LOCAL-00193" summary="Update project.">
+      <created>1692844768547</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1692844768548</updated>
+    </task>
+    <task id="LOCAL-00194" summary="Remove commented code that unused.">
+      <created>1692844783790</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1692844783790</updated>
+    </task>
+    <task id="LOCAL-00195" summary="Update project.">
+      <created>1693389565269</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1693389565269</updated>
+    </task>
+    <task id="LOCAL-00196" summary="Add code on build.gradle (app) to run on release variant.">
+      <created>1693389591281</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1693389591282</updated>
+    </task>
+    <task id="LOCAL-00197" summary="Update project.">
+      <created>1697147213505</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1697147213506</updated>
+    </task>
+    <task id="LOCAL-00198" summary="Remove unused/commented code.">
+      <created>1697147230627</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1697147230627</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add leak canary dependency and implementation leak canary." />
+    <MESSAGE value="Adjust lateinit var using nullable variable." />
+    <MESSAGE value="Change onDestroy using onStop to fix memory leak." />
+    <MESSAGE value="Move passphrase to Constants class. Also add fallbackToDestructiveMigration() method." />
+    <MESSAGE value="Add ssl pinning." />
+    <MESSAGE value="Move hardcoded ssl pinning key to Constants class." />
+    <MESSAGE value="Optimize imports." />
+    <MESSAGE value="Add buildTypes debug." />
+    <MESSAGE value="Remove buildTypes on dynamic feature module library." />
+    <MESSAGE value="Add id to root view." />
+    <MESSAGE value="Add obfuscation proguard rule." />
+    <MESSAGE value="Update navControllerDestination becomes object variable." />
+    <MESSAGE value="Update gitignore." />
+    <MESSAGE value="Update content of gitignore file." />
+    <MESSAGE value="Update android.yml file." />
+    <MESSAGE value="Change application icon." />
+    <MESSAGE value="Add Github Action's badge." />
+    <MESSAGE value="Update leak canary version to 2.12." />
+    <MESSAGE value="Move hardcoded string to string resource and update DetailFragment's toast." />
+    <MESSAGE value="Add Github Actions to tech stacks and update README.md file." />
+    <MESSAGE value="Remove unused codes." />
+    <MESSAGE value="Remove commented code that unused." />
+    <MESSAGE value="Add code on build.gradle (app) to run on release variant." />
+    <MESSAGE value="Update project." />
+    <MESSAGE value="Remove unused/commented code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused/commented code." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../../made-kt/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/detail/DetailFragment.kt</url>
+          <line>69</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../../made-kt/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/detail/DetailFragment.kt</url>
+          <line>77</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../../made-kt/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/detail/DetailFragment.kt</url>
+          <line>76</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../../made-kt/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/detail/DetailFragment.kt</url>
+          <line>75</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../../made-kt/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/detail/DetailFragment.kt</url>
+          <line>58</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../../made-kt/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/home/HomeFragment.kt</url>
+          <line>72</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
